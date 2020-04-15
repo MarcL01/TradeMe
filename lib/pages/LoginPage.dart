@@ -1,4 +1,9 @@
+import 'dart:ffi';
+
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+
+final FirebaseAuth _auth = FirebaseAuth.instance;
 
 class LoginPage extends StatefulWidget {
   @override
@@ -6,6 +11,12 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  Future<Void> _handleLogIn(String username, String password) async {
+    FirebaseUser user = (await _auth.signInWithEmailAndPassword(
+            email: username, password: password))
+        .user;
+  }
+
   @override
   Widget build(BuildContext context) {
     return CustomPaint(

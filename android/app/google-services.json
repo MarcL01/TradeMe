@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "223766718607",
+    "firebase_url": "https://trademe-a41c0.firebaseio.com",
+    "project_id": "trademe-a41c0",
+    "storage_bucket": "trademe-a41c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223766718607:android:4a607b5a10c5810473e8fa",
+        "android_client_info": {
+          "package_name": "me.marclittle.trademe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223766718607-g976k72iebmdr8an1u5ukb88sc5f7ijg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdBQz0d0k-uns-yuAe1fomuj4_ebJLpns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223766718607-g976k72iebmdr8an1u5ukb88sc5f7ijg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "223766718607-25i61luh3eskbvd97cq8vno51grvsv6m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.marclittle.trademe"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
